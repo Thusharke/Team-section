@@ -1,0 +1,144 @@
+body{
+    background-color: #131b21;
+    /* background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%); */
+}
+.team-section{
+    font-family: 'Poppins', sans-serif;
+    /* background-image: url("https://dscmescoe.tech/static/media/trialNoGridFinal.26ed4dc2.svg");
+    background-size: cover;
+    background-repeat: repeat-y; */
+}
+.psec-title{
+    color : rgba(67, 132, 244);
+    margin-bottom: 1.5rem;
+    /* font-weight: bold; */
+}
+.web-title{
+    color: rgba(251, 189, 4);
+    margin: 1.8rem 0 0 0;
+}
+.android-title{
+    color : rgb(207, 61, 48);
+    margin: 1.8rem 0 0 0;
+}
+.ml-title{
+    color : rgb(32, 173, 69);
+    margin: 1.8rem 0 0 0;
+}
+.nt-title{
+    color : rgba(67, 132, 244);
+    margin: 1.8rem 0 0 0;
+}
+.card{
+    margin : 2rem 3px;
+    background-color: rgb(65, 65, 65);
+    border: 1px solid rgb(59, 124, 236);
+    border-radius: 10px;
+    color : white;
+    padding : 0;
+    position: relative;
+    overflow-y: hidden;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.46);
+    box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.46);
+    transition: all 0.1s;
+}
+.web{
+    border: 1px solid  rgb(255, 201, 40);
+}
+.android{
+    border: 1px solid  rgb(255, 49, 30);
+}
+.ml{
+    border: 1px solid  rgb(44, 236, 95);
+}
+.card:hover .p-head{
+    opacity: 0;
+}
+.card:hover .overlay{
+    transform: translateY(0%);
+}
+.overlay:hover{
+    transform: translateY(0%);
+}
+.pic{
+    width : 100%;
+}
+.overlay{
+    text-align: center;
+    color: white;
+    z-index : 10;
+    position: absolute;
+    background-color: rgba(50, 98, 182, 0.966);
+    width : 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: all 0.8s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+.web .overlay{
+    background-color: rgba(251, 189, 4, 0.966);
+}
+.android .overlay{
+    background-color: rgba(207, 61, 48, 0.966);
+}
+.ml .overlay{
+    background-color: rgba(32, 173, 69, 0.966);
+}
+.p-head{
+    border-top : 1px solid rgb(59, 124, 236);
+    position: absolute;
+    text-align: center;
+    padding-top:0.7rem;
+    bottom: 0;
+    background-color:#131b21;
+    /* background-color: #4c4177;
+    background-image: linear-gradient(315deg, #4c4177 0%, #2a5470 74%); */
+    width: 100%;
+    opacity: 1;
+    transition: all 0.3s;
+}
+.web .p-head{
+    border-top : 1px solid rgb(255, 201, 40);
+}
+.android .p-head{
+    border-top : 1px solid rgb(234, 68, 53);
+}
+.ml .p-head{
+    border-top : 1px solid rgb(44, 236, 95);
+}
+.p-head .role{
+    margin-bottom: 0.7rem;
+}
+.role{
+    font-weight:bold;
+    font-size: 1.05rem;
+}
+.p-head .name{
+    color: whitesmoke;
+}
+.name{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.28);
+    margin-bottom: 0.2rem;
+}
+.contact-icons{
+    margin-top: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.icons a{
+    margin : 0 0.3rem;
+    transition: all 0.5s;
+}
+.logo{
+    height: 32px;
+    width: 32px;
+}
+.profile-desc{
+    font-size: 0.85rem;
+}
